@@ -1,0 +1,26 @@
+{
+  "name": "gh-pages",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "concurrently \"yarn:build:*\"",
+    "build:backend": "yarn workspace backend build",
+    "build:client": "yarn workspace client build",
+    "dev": "concurrently \"yarn:dev:*\"",
+    "dev:backend": "yarn workspace backend start:dev",
+    "dev:client": "yarn workspace client dev",
+    "nest:g": "yarn workspace backend nest g",
+    "nest:g:full": "node ./scripts/nest-g-full.js",
+    "start": "yarn workspace backend start:prod"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "cross-env": "^7.0.3",
+    "prettier": "^2.8.7",
+    "prettier-plugin-packagejson": "^2.4.3",
+    "prettier-plugin-tsconfig": "^0.0.1"
+  },
+  "packageManager": "yarn@3.5.0"
+}
