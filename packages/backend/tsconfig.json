@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "module": "CommonJS",
+    "outDir": "build",
+    "removeComments": true,
+    "sourceMap": true,
+    "target": "ESNext",
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "strictNullChecks": false,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "esModuleInterop": true,
+    "noFallthroughCasesInSwitch": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": false,
+    "skipLibCheck": true
+  }
+}
