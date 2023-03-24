@@ -61,3 +61,11 @@ To learn more about technologies used in this project, take a look at the follow
 - [ ] Add [Renovate](https://docs.renovatebot.com/) for dependency updates
 - [ ] Add [Dependabot](https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically) for dependency updates
 - [ ] Add [Sentry](https://sentry.io/welcome/) for error tracking
+
+## Contributing
+
+If you have any ideas or suggestions, feel free to open an issue or pull request.
+
+## License
+
+This project is licensed under the Apache License 2.0 - see the [LICENSE](./LICENSE) file for details.
