@@ -1,5 +1,5 @@
 {
-  "name": "gh-pages",
+  "name": "boilerplate-nextjs-nestjs",
   "private": true,
   "workspaces": [
     "packages/*"
