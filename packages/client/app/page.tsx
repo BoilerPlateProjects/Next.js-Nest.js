@@ -7,35 +7,6 @@ import clsx from "clsx";
 
 const inter = Inter({ subsets: ["latin"] });
 
-//
-//   {/*<div className="col-start-3 col-end-4 flex items-center justify-center">*/}
-//   {/*  <div className="text-sm text-zinc-600">*/}
-//   {/*    Created by the <b>Next.js</b> team at{" "}*/}
-//   {/*    <a href="https://vercel.com">*/}
-//   {/*      <b>Vercel</b>*/}
-//   {/*    </a>{" "}*/}
-//   {/*    and Modified by{" "}*/}
-//   {/*    <a href="https://github.com/MDReal32">*/}
-//   {/*      <b>MDReal</b>*/}
-//   {/*    </a>*/}
-//   {/*    .{" "}*/}
-//   {/*    <a*/}
-//   {/*      className="underline decoration-dotted underline-offset-4"*/}
-//   {/*      href="https://github.com/vercel/next.js/tree/canary/examples/with-turbopack"*/}
-//   {/*    >*/}
-//   {/*      View the original code*/}
-//   {/*    </a>*/}
-//   {/*    {" and/or "}*/}
-//   {/*    <a*/}
-//   {/*      className="underline decoration-dotted underline-offset-4"*/}
-//   {/*      href="https://github.com/MDReal32/node-boilerplate/tree/master/boilerplates/with-nextjs-nestjs"*/}
-//   {/*    >*/}
-//   {/*      Modified code*/}
-//   {/*    </a>*/}
-//   {/*  </div>*/}
-//   {/*</div>*/}
-// </main>
-
 const Page: FC = () => {
   return (
     <main className="flex flex-col justify-between items-center p-24 min-h-screen">
